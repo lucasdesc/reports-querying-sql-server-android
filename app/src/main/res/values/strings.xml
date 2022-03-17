@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Relatórios</string>
+    <string name="gerarrelatorio">Gerar Relatório</string>
+
+    <string-array name="numbers">
+        <item>LC1</item>
+        <item>LC2</item>
+        <item>LC3</item>
+        <item>LC4</item>
+        <item>LC5</item>
+        <item>LC6</item>
+        <item>LG1</item>
+        <item>LG2</item>
+        <item>4T1</item>
+        <item>4T2</item>
+        <item>4T3</item>
+        <item>4T4</item>
+    </string-array>
+</resources>

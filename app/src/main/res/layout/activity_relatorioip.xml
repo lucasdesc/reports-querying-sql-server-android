@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGrey"
+    tools:context="com.empresa.lucas.relatorios.Relatorios.RelatorioIP">
+
+    <TextView
+        android:text="MÁQUINA"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:fontFamily="monospace"
+        android:textColor="@color/colorBlack"
+        android:id="@+id/txtMaquina"
+        android:layout_marginLeft="27dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="57dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:text="IP"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:fontFamily="monospace"
+        android:textColor="@color/colorBlack"
+        android:id="@+id/txtIp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp"
+        android:layout_above="@+id/gridview1"
+        android:layout_alignLeft="@+id/voltar"
+        android:layout_alignStart="@+id/voltar" />
+    <TextView
+        android:text="DATA"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:fontFamily="monospace"
+        android:textColor="@color/colorBlack"
+        android:id="@+id/txtData"
+        android:layout_above="@+id/gridview1"
+        android:layout_toRightOf="@+id/voltar"
+        android:layout_toEndOf="@+id/voltar"
+        android:layout_marginLeft="73dp"
+        android:layout_marginStart="73dp" />
+
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="1"
+        android:id="@+id/gridview1"
+        android:layout_below="@+id/txtMaquina"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:verticalSpacing="-25dp"
+        android:textColor="@color/colorBlack"
+        android:fontFamily="monospace"
+        android:layout_above="@+id/voltar" />
+
+    <Button
+        android:id="@+id/voltar"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="VOLTAR"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:onClick="voltar"
+        android:background="@drawable/datas"
+        android:fontFamily="monospace"
+        android:textColor="@color/colorBlack"
+        android:layout_marginBottom="16dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="600dp"
+android:layout_height="wrap_content"
+android:padding="10dp">
+
+    <TextView
+        android:id="@+id/C_APEL"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:layout_marginLeft="41dp"
+        android:layout_marginStart="41dp"
+        android:textColor="@color/colorBlack"
+        android:textSize="17sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="22dp" />
+
+<TextView
+    android:id="@+id/IP"
+    android:layout_width="100dp"
+    android:fontFamily="monospace"
+    android:layout_height="wrap_content"
+    android:textColor="@color/colorBlack"
+    android:textSize="17sp"
+    android:layout_alignBaseline="@+id/C_APEL"
+    android:layout_alignBottom="@+id/C_APEL"
+    android:layout_toLeftOf="@+id/EVS_START"
+    android:layout_toStartOf="@+id/EVS_START"
+    android:layout_marginRight="30dp"
+    android:layout_marginEnd="30dp" />
+
+<TextView
+    android:id="@+id/EVS_START"
+    android:layout_width="220dp"
+    android:fontFamily="monospace"
+    android:layout_height="wrap_content"
+    android:textColor="@color/colorBlack"
+    android:textSize="17sp"
+    android:layout_alignBaseline="@+id/IP"
+    android:layout_alignBottom="@+id/IP"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>

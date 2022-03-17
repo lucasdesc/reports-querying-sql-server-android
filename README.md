@@ -1,6 +1,6 @@
 # Reports-Querying-SQL-Server-Android
 
-Simple application that generates a report through a GridView and a query in the SQL Server database to bring results.
+Application that generates a report through a GridView and a query in the SQL Server database to bring results.
 
 # Resources
 
